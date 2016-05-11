@@ -4,10 +4,11 @@ html, body{
 
 a:link{
   text-decoration: none;
+  color: #fff;
 }
 
 a:visited{
-  color: white;
+  color: #fff;
 }
 
 a:hover{
@@ -20,7 +21,7 @@ h1, h2, h3{
 
 #fixed-banner{
   width: 100%;
-  height: 40px;
+  height: 85px;
   bottom: 0;
   left: 0;
   padding-bottom: 40px;
@@ -30,6 +31,7 @@ h1, h2, h3{
   font-weight: bold;
   font-size: 1em;
   color: #fff;
+  z-index:1;
   }
 
 .logo{
@@ -40,18 +42,22 @@ h1, h2, h3{
 
 .logo h1{
   text-align: center;
-  padding: 30px 0px;
+  padding: 15px 0px;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .menu{
   height: 100%;
   width: 62%;
   float: right;
+  font-size: 1.2em;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .menu ul{
   position: relative;
   top: 15px;
+  padding-left: 260px;
 }
 
 .menu li{
@@ -60,7 +66,7 @@ h1, h2, h3{
 }
 
 #banner{
-  height: 860px;
+  height: 900px;
   width: 100%;
   background: url("../img/blurred-lights.jpeg");
   background-size: cover;
@@ -68,12 +74,12 @@ h1, h2, h3{
 }
 
 .space-container{
-  height:380px;
+  height: 30%;
   width: 100%;
 }
 
 .banner-container{
-  height:200px;
+  height:240px;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   position: relative 0;
@@ -84,11 +90,13 @@ h1, h2, h3{
 }
 
 #banner div{
-  padding: 20px 0;
+  padding: 12px 0;
 }
 
 #banner h1{
   margin: 0;
+  font-family: 'kaushan script', cursive;
+  font-size: 2em;
 }
 
 #banner button{
@@ -98,30 +106,7 @@ h1, h2, h3{
   border: 4px solid #fff;
   color: #fff;
   font-size: 20px;
-}
-
-.grow{
-  -webkit-animation-duration: 1s;
-  -moz-animation-duration: 1s;
-  animation-duration: 5s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-name: grow;
-  -moz-animation-name: grow;
-  animation-name: grow;
-}
-
-@keyframes grow{
-    0%   {
-        transform: scale(1);
-    }
-    50%  {
-        transform: scale(1.2);
-    }
-    100% {
-        transform: scale(1);
-    }
+  font-family: 'kaushan script', cursive;
 }
 
 #banner button:hover{
@@ -132,7 +117,7 @@ h1, h2, h3{
 }
 
 #about{
-  height: 300px;
+  height: 465px;
   width: 100%;
   padding: 35px 0;
 }
@@ -153,7 +138,13 @@ h1, h2, h3{
   border-radius: 5px;
 }
 
-#about article h1{
+#about h1{
+  text-align: left;
+  font-size: 1.4em;
+  font-family: 'Kaushan Script', cursive;
+}
+
+#about article{
   text-align: left;
   font-family: 'Arial';
   font-size: 1.3em;
@@ -189,7 +180,8 @@ h1, h2, h3{
 
 #aboutme img{
   height: 70%;
-  pading: 60px;
+  padding: 15px 70px;
+  margin: 125px 0;
   background-size: cover;
 }
 
@@ -198,6 +190,10 @@ h1, h2, h3{
   width: 100%;
   float: left;
   background-color: #000;
+}
+
+.aboutme-info i{
+  color: rgba(163,170,250, 1);
 }
 
 .aboutme-content{
@@ -220,14 +216,169 @@ h1, h2, h3{
   font-family: arial;
   text-align: left;
   font-size: 2em;
+  font-weight: bold;
+  font-family: 'Kaushan Script', cursive;
 }
+
   #aboutme article{
     width: 40%;
     height: 23%;
     background-color: #000;
     float: left;
-    margin: 0 32px;
+    margin: 30px 32px;
     padding: 15px 12px;
+}
+
+#testimonials {
+  background-color:  #fff;
+  width: 100%;
+  height: 300px;
+  float: left;
+}
+
+.quotes-container{
+  position: relative;
+  padding: 0;
+}
+
+.myquotes {
+    display:none
+}
+
+.myquotes h1{
+  font-family: 'Playball', cursive;
+  font-size: 4em;
+}
+
+.myquotes p{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2em;
+}
+
+.w3-left, .w3-right, .w3-badge {cursor:pointer;}
+
+.w3-badge {height:13px;width:13px;padding:0;}
+
+.bubbles {margin-bottom: -35px!important;}
+
+.bubble, .hover-bubble:hover{
+  color: rgba(163,170,250, 1)!important;
+  background-color:  rgba(163,170,250, 1)!important;
+}
+
+.bubble-border{
+  border: 1px solid #000!important;
+}
+
+#contact{
+  height: 630px;
+  width: 100%;
+  float: left;
+  padding: 25px 0;
+  background-color:black;
+  background-size: cover;
+  background-position: top;
+}
+.contact-details{
+  margin-left: 5%;
+  margin-right: 55%;
+}
+#contact h1{
+  margin-left: 5%;
+  text-align: left;
+  font-size: 3em;
+  color:  rgba(163,170,250, 1);
+  font-family: 'Kaushan Script', cursive;
+}
+
+#contact p{
+  padding: 5% 0;
+  color: #fff;
+  float:left;
+  line-height: 35px;
+  font-size: 1.2em;
+
+}
+
+.form-box{
+  height: 350px;
+  width: 45%;
+  padding: 20px;
+  margin-right: 5%;
+  float:right;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+#contact label{
+  font-size: 1.6em;
+  color: rgba(163,170,250, 1);
+  font-family: 'Kaushan Script', cursive;
+}
+
+#contact input{
+  height: 40px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#contact textarea{
+  width: 100%;
+  height: 125px;
+  margin: 20px 0;
+}
+
+#contact button{
+  height:50px;
+  width: 160px;
+  background-color: rgba(255,255,255, 0.2);
+  border: 4px solid #fff;
+  color: #fff;
+  font-size: 28px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+#contact button:hover{
+  background-color: rgba(163,170,250, 0.7);
+  color: #fff;
+  border: 6px solid #fff;
+  font-weight: bold;
+}
+
+/*Footer Styles*/
+footer{
+  height: 260px;
+  width: 100%;
+  background-color: #000;
+  clear:both;
+  float:left;
+}
+
+.copyright p{
+  margin: 0;
+  text-align: center;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.sm-icons{
+  width: 210px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.icon{
+  height: 60px;
+  width: 60px;
+  background-color: rgba(255,255,255,.2);
+  float: left;
+  margin: 0 5px;
+  border-radius: 100%;
+}
+
+.icon i{
+  font-size: 2em;
+  padding: 15px;
 }
 
 #map{
@@ -266,4 +417,5 @@ h1, h2, h3{
   height: 500px;
   width: 100%;
   background-color: black;
+  float: left;
 }

@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>J.Piceno</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script|Playball' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/main.css"/>
   </head>
   <body>
@@ -12,22 +14,22 @@
     </header>
 
 <!--Banner Section-->
-    <section id="banner" style="font-family: 'Arial'">
+  <section id="banner" style="font-family: 'Arial'">
       <div class="space-container"></div>
       <div class="banner-container">
         <div>
-          <h1>WEB & GRAPHIC DESIGNER</h1>
+          <h1><b>WEB & GRAPHIC DESIGNER</b></h1>
         </div>
         <div>
           <button type="submit">LEARN MORE</button>
         </div>
       </div>
-    </section>
+  </section>
 
 <!--Fixed Header-->
-    <section id="fixed-banner">
+  <section id="fixed-banner">
       <div class="logo">
-        <h1>LO<span style="color:rgba(163,170,250, 1)">GO</span></h1>
+        <h1><b>LO<span style="color:rgba(163,170,250, 1)">GO</span></b></h1>
       </div>
       <div class="menu">
         <ul>
@@ -42,7 +44,7 @@
           <li>
             <a href="#skills">SKILLS</a>
           </li>
-
+          
           <li>
             <a href="">RÉSUMÉ</a>
           </li>
@@ -60,27 +62,27 @@
           </li>
         </ul>
       </div>
-    </section>
+  </section>
 
 <!--Values Goals Hobbies-->
-    <section id="about">
+  <section id="about">
         <div class="about-container">
           <article class="values">
-            <h1>Values</h1>
+            <h1><b>Values</b></h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </article>
 
           <article class="goals">
-            <h1>Goals</h1>
+            <h1><b>Goals</b></h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </article>
 
           <article class="hobbies">
-            <h1>Hobbies</h1>
+            <h1><b>Hobbies</b></h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </article>
         </div>
-    </section>
+  </section>
 
 <!--Section-->
   <section id="aboutme">
@@ -92,20 +94,138 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
           </div>
-          <article class="aboutme-1">
-            <h1><i class="fa fa-paint-brush"></i>WEB DESIGN</h1>
+          <article class="aboutme-1"> <!--web design-->
+            <h1><i class="fa fa-paint-brush"></i> WEB DESIGN</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
           </article>
-          <article class="aboutme-2">
-            <h1><i class="fa fa-microphone"></i>ONLINE MARKETING</h1>
+          <article class="aboutme-2"> <!--online marketing-->
+            <h1><i class="fa fa-microphone"></i> ONLINE MARKETING</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+          </article>
+          <article class="aboutme-3"> <!--graphics design-->
+            <h1><i class="fa fa-microphone"></i> GRAPHICS DESIGN</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+          </article>
+          <article class="aboutme-4"> <!--seo-->
+            <h1><i class="fa fa-microphone"></i> SEO</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
           </article>
         </div>
   </section>
 
-  <section>
-    <div class=""><img src="img/blurred-lights.jpeg"/></div>
+<!--Testimonials Section-->
+  <section id="testimonials">
+    <div class="w3-content quotes-container" style="max-width:800px">
+      <div class="myquotes">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"</p>
+        <h1><b>-John Doe</b></h1>
+      </div>
+      <div class="myquotes">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"</p>
+        <h1><b>-Jane Doe</b></h1>
+      </div>
+      <div class="myquotes">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"</p>
+        <h1><b>-Fro Doe</b></h1>
+      </div>
+      <div class="w3-center bubbles w3-large w3-text-white w3-display-bottomleft" style="width:100%">
+          <span class="w3-badge demo w3-border w3-transparent hover-bubble" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent hover-bubble" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent hover-bubble" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function currentDiv(n) {
+        showDivs(slideIndex = n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("myquotes");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length} ;
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+           dots[i].className = dots[i].className.replace(" bubble", "");
+        }
+        x[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " bubble";
+      }
+    </script>
+  </div>
   </section>
+
+<!--Contact Form-->
+  <section id="contact">
+    <h1><b>CONTACT ME</b></h1>
+      <div class="contact-details">
+        <ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br><br>Address Line 1 <br> Address Line 2 <br>Address Line 3<br><br><span style="font-family:Kaushan Script"><span style="color:rgba(163,170,250, 1)"><span style="font-size:1.5em">Email:</span></span></span> info@logo.com
+            <br><span style="font-family:Kaushan Script"><span style="color:rgba(163,170,250, 1)"><span style="font-size:1.5em">Phone:</span></span></span> 559-955-5955</p>
+        </ul>
+      </div>
+
+      <div class="form-box">
+        <form action="submit" method="post">
+
+          <div>
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="*Name"/>
+          </div>
+
+          <div>
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="*Email"/>
+          </div>
+
+          <div>
+            <label for="Message"><b>Message</b></label>
+            <textarea placeholder="*Message"></textarea>
+          </div>
+
+          <div>
+            <button type="submit">Send</button>
+          </div>
+
+        </form>
+      </div>
+  </section>
+
+<!--Footer-->
+  <footer>
+    <div class="copyright">
+      <p>Powered by &copy; J.Piceno Technology</p>
+    </div>
+
+    <div class="sm-icons">
+      <div class="icon">
+        <a href="#">
+          <i class="fa fa-facebook"></i>
+        </a>
+      </div>
+      <div class="icon">
+        <a href="#">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </div>
+      <div class="icon">
+        <a href="#">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
 
 <!--
 <Map Section>
@@ -124,8 +244,18 @@
 -->
 
 <!--Empty Box-->
-  <section id="empty">
-  </section>
+
+<!--Google Analytics Script-->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-77506031-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 
   </body>
 </html>
