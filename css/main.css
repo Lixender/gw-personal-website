@@ -57,7 +57,8 @@ h1, h2, h3{
 .menu ul{
   position: relative;
   top: 15px;
-  padding-left: 260px;
+  float: right;
+  padding-right: 5%;
 }
 
 .menu li{
@@ -238,7 +239,7 @@ h1, h2, h3{
 
 .quotes-container{
   position: relative;
-  padding: 0;
+  padding: 0 45px;
 }
 
 .myquotes {
