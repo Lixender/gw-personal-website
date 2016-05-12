@@ -158,7 +158,7 @@ h1, h2, h3{
   font-size: 1.2em;
 }
 
-#aboutme{
+#skills{
   height: 800px;
   width: 100%;
   float: left;
@@ -166,45 +166,45 @@ h1, h2, h3{
   background-color: #000;
 }
 
-.aboutme-box{
+.skills-box{
   height: 800px;
   width: 100%;
   float: left;
   background-color: red;
 }
 
-.aboutme-container{
+.skills-container{
     width: 100%;
     height: 100%;
     background-color: black;
 }
 
-#aboutme img{
+#skills img{
   height: 70%;
   padding: 15px 70px;
   margin: 125px 0;
   background-size: cover;
 }
 
-.aboutme-info{
+.skills-info{
   height: 800px;
   width: 100%;
   float: left;
   background-color: #000;
 }
 
-.aboutme-info i{
+.skills-info i{
   color: rgba(163,170,250, 1);
 }
 
-.aboutme-content{
+.skills-content{
   height: 35%;
   width: 90%;
   padding-top: 5%;
   background-color: #000;
 }
 
-#aboutme p{
+#skills p{
   width: 100%;
   font-family: arial;
   color: #fff;
@@ -212,7 +212,7 @@ h1, h2, h3{
   font-size: 1.3em;
   }
 
-#aboutme h1{
+#skills h1{
   color: #fff;
   font-family: arial;
   text-align: left;
@@ -221,7 +221,7 @@ h1, h2, h3{
   font-family: 'Kaushan Script', cursive;
 }
 
-  #aboutme article{
+  #skills article{
     width: 40%;
     height: 23%;
     background-color: #000;
